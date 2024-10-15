@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(exp.jpg);
+    background-position: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(30, 30, 53);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(151, 151, 246);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
+.left a:hover {
+    color: rgb(187, 116, 253);
+    font-size: 2.2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 43px -2px;
+}
+
+.firstSection>div {
+    width: 26%;
+
+}
+.leftSection h3{
+    padding: 21px 4px;
+    font-size: 1.7rem;
+}
+.bix{
+    border: 1px solid white;
+    margin: 0 1 5rem;
+    padding: 0 50px;
+    height: 288px;
+}
+
+.title{
+    font-size: 21px;
+    margin: 15px 20px;
+}
+.des{
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+}
+.contact_me{
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.rightSection h3{
+    padding: 22px 20px;
+    font-size: 1.7rem;
+}
+.box{
+    border: 1px solid white;
+    height: 288px;
+    width: 0 20px;
+}
+.box label{
+    font-size   : 1.2rem;
+    margin:10px 55px;
+    color: black;
+    
+}
+.box input{
+    margin: 0 50px;
+    border: none;
+
+    
+}
+.box textarea{
+    margin: 0 50px;
+    width: 250px;
+    height: 100px;
+    border: none;
+    
+}
+.btn input{
+    padding: 2px 59px;
+    font-size: 1.2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    margin: 8px 11vh;  
+    cursor: pointer; 
+}
+
+main hr {
+    border: 0;
+    background-color: aliceblue;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+
+footer{
+    background-color:#0e0e1a;
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer>div{
+    width: 200px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul a{
+    text-decoration: none;
+    color: white;
+}
+footer .copyright{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.footer h3 a{
+    text-decoration: none;
+    color: white;
+}
